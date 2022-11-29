@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/564x/a9/04/3b/a9043b14c8c5ad342b88168a107e3597.jpg"); 
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.loginDatos{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.loginDatos input {
+    margin: 10px
+}
+
+
+.imgLog{
+    border-radius: 70px;
+    border-style: double;
+    border-color: bisque;
+}
+
+.transparente{
+    /* background-color: rgba(230, 179, 179, 0.534); */
+    background-color: rgba(230, 179, 179, 0.176);
+    width: 100vw;
+    height: 104vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -2;
+}
+
+.datos{
+    border-radius: 7px;
+    border-color: rgb(28, 4, 4);
+}
+
+.datossub{
+    border-radius: 7px;
+    border-color: rgb(28, 4, 4);
+    cursor: pointer;
+}
+
+.datossub:hover{
+    background-color: antiquewhite;
+}
+
+.booksonhand{
+    color: antiquewhite;
+}
